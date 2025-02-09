@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MMP Shop - รับซื้อมือถือมือสอง ให้ราคาสูง จ่ายเงินสดทันที">
+    <meta name="keywords" content="รับซื้อมือถือ, ขายมือถือ, MMP Shop, มือถือมือสอง">
+    <meta name="author" content="MMP Shop">
     <title>Meta Mobile Phone - MMP Shop</title>
     <style>
         body {
@@ -13,87 +17,87 @@
         }
         .cover-image {
             width: 100%;
-            height: 300px;
-            background: linear-gradient(to bottom, #2c3e50, #3498db);
+            height: 250px;
+            background: url('./cover.jpg') no-repeat center/cover;
             border-radius: 12px;
             margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         .shop-info {
             background: white;
-            padding: 25px;
+            padding: 20px;
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
+            text-align: center;
+        }
+        .logo img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .highlight-box {
+            background: #3498db;
+            padding: 15px;
+            border-radius: 8px;
+            color: white;
+            flex: 1;
+            min-width: 120px;
+            text-align: center;
         }
         .contact-info {
             background: #2c3e50;
             padding: 20px;
             border-radius: 12px;
             color: white;
-        }
-        .highlights {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            margin: 25px 0;
-        }
-        .highlight-box {
-            background: #3498db;
-            padding: 20px;
-            border-radius: 12px;
             text-align: center;
+        }
+        .contact-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .contact-buttons a {
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
             color: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-weight: bold;
+            transition: 0.3s;
         }
-        .logo {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .logo img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
+        .call-btn { background: #27ae60; }
+        .line-btn { background: #00c300; }
+        .contact-buttons a:hover { opacity: 0.8; }
     </style>
 </head>
 <body>
-    <div class="cover-image">
-    <img src="./cover.jpg" alt="Meta Mobile Phone Shop Cover" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
-</div>
-
+    <div class="cover-image"></div>
     <div class="shop-info">
         <div class="logo">
-    <img src="./logo.jpg" alt="MMP Shop Logo">
-</div>
-        
-        <h1 style="text-align: center; color: #2c3e50;">Meta Mobile Phone | MMP.Shop</h1>
-        <p style="text-align: center; font-size: 1.2em; color: #3498db;">รับซื้อมือถือมือสอง ให้ราคาสูงที่สุด ✨ จ่ายเงินสดทันที 💰</p>
-        
-        <div class="highlights">
-            <div class="highlight-box">
-                <h3>💎 ราคาดีที่สุด</h3>
-                <p>รับประกันราคาสูง คุ้มค่า คุ้มราคา</p>
-            </div>
-            <div class="highlight-box">
-                <h3>⚡ บริการรวดเร็ว</h3>
-                <p>ประเมินราคาฟรี จ่ายเงินสดทันที</p>
-            </div>
-            <div class="highlight-box">
-                <h3>🏆 มืออาชีพ</h3>
-                <p>บริการด้วยความซื่อสัตย์ ปลอดภัย 100%</p>
-            </div>
+            <img src="./logo.jpg" alt="MMP Shop Logo">
         </div>
-
-        <div class="contact-info">
-            <h2>📱 ติดต่อสอบถามได้ที่</h2>
-            <p>👨‍💼 คุณเอก (ผู้จัดการร้าน)</p>
-            <p>📞 โทร: 081-755-2006</p>
-            <p>💬 Line ID: wtshoponline</p>
-            <p>⭐ บริการรับซื้อถึงที่ เดินทางสะดวก</p>
+        <h1>Meta Mobile Phone | MMP Shop</h1>
+        <p>รับซื้อมือถือมือสอง ให้ราคาสูงที่สุด ✨ จ่ายเงินสดทันที 💰</p>
+        <div class="highlights">
+            <div class="highlight-box">💎 ราคาดีที่สุด</div>
+            <div class="highlight-box">⚡ บริการรวดเร็ว</div>
+            <div class="highlight-box">🏆 มืออาชีพ</div>
+        </div>
+    </div>
+    <div class="contact-info">
+        <h2>📱 ติดต่อเรา</h2>
+        <p>👨‍💼 คุณเอก (ผู้จัดการร้าน)</p>
+        <p>📞 โทร: 081-755-2006</p>
+        <p>💬 Line ID: wtshoponline</p>
+        <div class="contact-buttons">
+            <a href="tel:0817552006" class="call-btn">📞 โทรเลย</a>
+            <a href="https://line.me/ti/p/~wtshoponline" class="line-btn">💬 แชทผ่าน Line</a>
         </div>
     </div>
 </body>
