@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="th" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="MMP Shop - รับซื้อมือถือมือสอง ให้ราคาสูง จ่ายเงินสดทันที">
-    <meta name="keywords" content="รับซื้อมือถือ, ขายมือถือ, MMP Shop, มือถือมือสอง">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Enhanced SEO Meta Tags -->
+    <meta name="description" content="MMP Shop - มืออาชีพรับซื้อมือถือมือสอง ให้ราคาสูงสุด จ่ายเงินสดทันที บริการครอบคลุมทั่วประเทศ">
+    <meta name="keywords" content="รับซื้อมือถือมือสอง, ขายมือถือราคาดี, รับซื้อโทรศัพท์มือถือ, MMP Shop, มือถือมือสองคุณภาพ">
     <meta name="author" content="MMP Shop">
-    <title>Meta Mobile Phone - MMP Shop</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Meta Mobile Phone - MMP Shop">
+    <meta property="og:description" content="รับซื้อมือถือมือสอง ให้ราคาสูงที่สุด จ่ายเงินสดทันที">
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://bkkjapan.github.io/wattikorn0817552006">
+    <meta property="og:image" content="./logo.jpg">
+    
+    <title>Meta Mobile Phone - รับซื้อมือถือมือสอง | MMP Shop</title>
+    
+    <!-- Structured Data - Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Meta Mobile Phone - MMP Shop",
+        "image": "./logo.jpg",
+        "telephone": "+66817552006",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "TH"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": null,
+            "longitude": null
+        },
+        "description": "มืออาชีพรับซื้อมือถือมือสอง ให้ราคาสูงสุด จ่ายเงินสดทันที",
+        "areaServed": "Thailand"
+    }
+    </script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,6 +48,7 @@
             margin: 0 auto;
             padding: 20px;
             background: #f0f2f5;
+            line-height: 1.6;
         }
         .cover-image {
             width: 100%;
@@ -21,6 +56,7 @@
             background: url('./cover.jpg') no-repeat center/cover;
             border-radius: 12px;
             margin-bottom: 20px;
+            loading: lazy;
         }
         .shop-info {
             background: white;
@@ -34,6 +70,8 @@
             height: 120px;
             border-radius: 50%;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            alt: "MMP Shop โลโก้ - มืออาชีพรับซื้อมือถือมือสอง";
+            loading: lazy;
         }
         .highlights {
             display: flex;
@@ -71,37 +109,47 @@
             font-weight: bold;
             transition: 0.3s;
         }
-        .call-btn { background: #27ae60; } /* ปุ่มโทร */
-        .line-btn { background: #00c300; } /* ปุ่ม Line */
-        .facebook-btn { background: #1877f2; } /* ปุ่ม Facebook */
+        .call-btn { background: #27ae60; }
+        .line-btn { background: #00c300; }
+        .facebook-btn { background: #1877f2; }
         .contact-buttons a:hover { opacity: 0.8; }
     </style>
 </head>
 <body>
-    <div class="cover-image"></div>
-    <div class="shop-info">
-        <div class="logo">
-            <img src="./logo.jpg" alt="MMP Shop Logo">
-        </div>
-        <h1>Meta Mobile Phone | MMP Shop</h1>
-        <p>รับซื้อมือถือมือสอง ให้ราคาสูงที่สุด ✨ จ่ายเงินสดทันที 💰</p>
-        <div class="highlights">
-            <div class="highlight-box">💎 ราคาดีที่สุด</div>
-            <div class="highlight-box">⚡ บริการรวดเร็ว</div>
-            <div class="highlight-box">🏆 มืออาชีพ</div>
-        </div>
-    </div>
-    <div class="contact-info">
-        <h2>📱 ติดต่อเรา</h2>
-        <p>👨‍💼 คุณเอก วัทธิกร (ผู้จัดการร้าน)</p>
-        <p>📞 โทร: 081-755-2006 หรือ 082-440-2506</p>
-        <p>💬 Line ID: wattikorn หรือ wtshoponline</p>
-        <p>🌐 แฟนเพจ: <a href="https://www.facebook.com/meta.mobile.phone" style="color: #1DA1F2; text-decoration: none;">Meta Mobile Phone</a></p>
-        <div class="contact-buttons">
-            <a href="tel:0817552006" class="call-btn">📞 โทรเลย</a>
-            <a href="https://line.me/ti/p/~wtshoponline" class="line-btn">💬 ทัก Line</a>
-            <a href="http://m.me/meta.mobile.phone" class="facebook-btn">💬 แชททางเพจ</a>
-        </div>
-    </div>
+    <header>
+        <div class="cover-image" role="img" aria-label="MMP Shop หน้าปก - บริการรับซื้อมือถือมือสอง"></div>
+    </header>
+    
+    <main>
+        <section class="shop-info">
+            <div class="logo">
+                <img src="./logo.jpg" alt="MMP Shop โลโก้ - มืออาชีพรับซื้อมือถือมือสอง">
+            </div>
+            <h1>Meta Mobile Phone | MMP Shop</h1>
+            <p>รับซื้อมือถือมือสอง ให้ราคาสูงที่สุด ✨ จ่ายเงินสดทันที 💰</p>
+            <div class="highlights">
+                <div class="highlight-box">💎 ราคาดีที่สุด</div>
+                <div class="highlight-box">⚡ บริการรวดเร็ว</div>
+                <div class="highlight-box">🏆 มืออาชีพ</div>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <h2>📱 ติดต่อเรา</h2>
+            <p>👨‍💼 คุณเอก วัทธิกร (ผู้จัดการร้าน)</p>
+            <p>📞 โทร: <a href="tel:0817552006">081-755-2006</a> หรือ <a href="tel:0824402506">082-440-2506</a></p>
+            <p>💬 Line ID: wattikorn หรือ wtshoponline</p>
+            <p>🌐 แฟนเพจ: <a href="https://www.facebook.com/meta.mobile.phone" style="color: #1DA1F2; text-decoration: none;">Meta Mobile Phone</a></p>
+            <div class="contact-buttons">
+                <a href="tel:0817552006" class="call-btn">📞 โทรเลย</a>
+                <a href="https://line.me/ti/p/~wtshoponline" class="line-btn">💬 ทัก Line</a>
+                <a href="http://m.me/meta.mobile.phone" class="facebook-btn">💬 แชททางเพจ</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center; font-size: 0.8em; color: #666;">© 2024 Meta Mobile Phone - MMP Shop. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
